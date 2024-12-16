@@ -1,0 +1,62 @@
+html * {
+  font-size: 1em !important;
+  color: #000 !important;
+  font-family: Arial !important;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  background-image: linear-gradient (90deg,
+    hsl(229, 100%, 65%),
+    #0223e0);
+  font-size: 1.2em;
+  color:rgb(255, 255, 255);
+}
+
+h2 {
+  font-size: 1.2em;
+  color: rgb(187, 4, 187);
+}
+
+/* Сброс стилей списка */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Стилизация элементов списка */
+nav li {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+/* Стилизация ссылок */
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Стилизация ссылок при наведении */
+nav a:hover {
+  color: #007bff;
+}
+
+/* Стилизация секции intro */
+section intro {
+  background-color: #007bff;
+  color:white;
+  padding:10px 15px 20px 30px;
+  text-align: center;
+}
+
+/* Стилизация секции content */
+section content {
+  background-color: white;
+  padding: 10px 15px 20px 30px;
+  text-align: center;
+}
